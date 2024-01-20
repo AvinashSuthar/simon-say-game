@@ -46,7 +46,7 @@ function checkAns(idx) {
 
     }
     else{
-        h3.innerText = `Game Over! Press any key to start.`
+        h3.innerHTML = `Game Over! <b> Your Score was ${level} </b> </br> Press any key to start.`
         reset();
     }
 }
